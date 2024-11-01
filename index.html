@@ -6,8 +6,26 @@
         <link href="dist/styles.css" rel="stylesheet" />
 
         <title>Lee Panti</title>
+        <style>
+            /* Ensure iframe fits exactly within the specified dimensions */
+            iframe {
+                width: 100%; /* Adjust to fit within a parent container */
+                height: 100%;
+                border: 0;
+            }
+            /* Optional: Set the iframe's container for responsive scaling */
+            .iframe-container {
+                width: 600px; /* or any specific size */
+                height: 500px;
+            }
+        </style>
     </head>
-    <body class="flex justify-center items-center bg-slate-200">
-        <h1 class="text-5xl font-[#333]">Hello there! My name is Lee</h1>
+    <body class="flex flex-col justify-center items-center bg-slate-200">
+        <h1 class="text-5xl font-[#333] pb-10">
+            Hello there! This is a sample CDG website
+        </h1>
+        <div class="iframe-container">
+            <iframe src="https://app.leepanti.me"> </iframe>
+        </div>
     </body>
 </html>
