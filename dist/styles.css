@@ -551,6 +551,9 @@ video {
 .h-16 {
   height: 4rem;
 }
+.h-svh {
+  height: 100svh;
+}
 .flex-col {
   flex-direction: column;
 }
